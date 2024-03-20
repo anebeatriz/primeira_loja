@@ -2,16 +2,16 @@
     margin: 0%;
 }
 header{
-    background-color: hotpink;
+    background-color: brown;
 }
 aside{
-    background-color: blueviolet;
+    background-color:coral;
 }
 main{
-    background-color: rgb(159, 56, 255);
+    background-color: darkgoldenrod;
 }
 footer{
-    background-color: blue;
+    background-color: chocolate;
 }
 header{
     grid-area: cabeça;
@@ -45,4 +45,19 @@ body{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto auto;
     }
+}
+.elementomae{
+    justify-content: space-around;
+    border: 2px black solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.elemento{
+    border: 2px pink;
+    width: 80px;
+    height: 100px;
+    border-radius: 20px 0 10px 0;
+    box-shadow: 2px 0px 3px 1px black;
 }
