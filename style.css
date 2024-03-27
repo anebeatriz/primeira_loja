@@ -62,7 +62,7 @@ body{
     width: 300px;
     height: 450px;
     border-radius: 20px 0 10px 0;
-    box-shadow: 2px 2px 6px 2px plum;
+    box-shadow: 2px 2px 10px 4px plum;
     background-color: rgb(255, 114, 161);
     margin: 10px;
 } 
@@ -81,13 +81,24 @@ div{
 }
 header ul a{
     text-decoration: none;
-    color: darkgoldenrod;
+    color: #ffc635;
+    transition: 1s;
 }
 header ul a:hover{
-    color: rgb(255, 238, 0);
+    color: rgb(0, 195, 255);
 }
 aside p{
     margin-top: 5px;
     margin-left: 5px;
     margin-right: 5px;
+}
+footer a{
+    color: #ffa5ff;
+    transition: 1s;
+}
+footer a:hover{
+    color: fuchsia;
+}
+aside h1{
+    margin-left: 5px;
 }
