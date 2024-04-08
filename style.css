@@ -1,4 +1,4 @@
- *{
+*{
     margin: 0%;
 }
 header{
@@ -116,4 +116,14 @@ div a{
 }
 div a:hover{
     text-decoration:underline;
+}
+aside a{
+    text-decoration: none;
+    color: black;
+}
+aside a:hover{
+    text-decoration: underline;
+    background-color: cadetblue;
+    transition: 1s;
+    border-radius: 5px;
 }
