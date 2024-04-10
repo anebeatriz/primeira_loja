@@ -2,10 +2,10 @@
     margin: 0%;
 }
 header{
-    background-color: rgb(182, 14, 145);
+    background-color:chocolate;
 }
 aside{
-    background-color: rgb(241, 162, 205);
+    background-color: coral;
     height: auto;
     width: 300px;
     border-radius: 5px;
@@ -14,7 +14,7 @@ main{
     background-color:beige;
 }
 footer{
-    background-color: rgb(182, 14, 145);
+    background-color:brown;
 }
 header{
     grid-area: cabeça;
@@ -87,6 +87,7 @@ aside p{
     margin-right: 5px;
 }
 footer a{
+    text-decoration: none;
     color: #ffa5ff;
     transition: 1s;
 }

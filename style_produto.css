@@ -2,13 +2,14 @@
     margin: 0%;
 }
 header{
-    background-color: rgb(182, 14, 145);
+    background-color:chocolate;
 }
 main{
     background-color:white;
+    position: relative;
 }
 footer{
-    background-color: rgb(182, 14, 145);
+    background-color:brown
 }
 header{
     grid-area: cabeça;
@@ -40,6 +41,57 @@ body{
         grid-template-rows: auto auto auto auto;
     }
 }
-main{
-    text-align:center;
+main h1{
+    position: absolute;
+    right: 770px;
+    top: 30px;
+}
+main h2{
+    position: absolute;
+    right: 1120px;
+    top: 60px;
+}
+main h3{
+    position: absolute;
+    right: 1155px;
+    top: 84px;
+}
+main img{
+    width: 400px;
+    padding: 203px;
+}
+main p{
+    position: absolute;
+    left: 709px;
+    top: 125px;
+}
+main h4{
+    position: absolute;
+    right: 680px;
+    top: 160px;
+}
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 1s;
+}
+footer a:hover{
+    color:cornflowerblue;
+}
+header{
+    position: relative;
+}
+header h1{
+    position: absolute;
+    right: 800px;
+    top: 10px;
+}
+button{
+    text-decoration: none;
+    border-radius: 9px;
+    background-color: rgb(255, 145, 0);
+    width: 60px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 6px;
 }
