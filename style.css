@@ -3,22 +3,22 @@
 }
 /* Adicionei cor ao header */
 header{
-    background-color:chocolate;
+    background-color:rgba(230, 175, 241, 0.712);
 }
 /* Adicionei cor ao aide e ajustei o tamanho e borda */
 aside{
-    background-color: coral;
+    background-color: rgba(230, 143, 241, 0.842);
     height: auto;
     width: 300px;
     border-radius: 5px;
 }
 /* Adicionei cor ao main */
 main{
-    background-color:beige;
+    background-color:rgba(250, 142, 221, 0.397);
 }
 /* Adicionei cor ao footer */
 footer{
-    background-color:brown;
+    background-color:rgba(155, 59, 155, 0.685);
 }
 /* Classifiquei o header para o grid */
 header{
@@ -153,4 +153,16 @@ aside a:hover{
     background-color: cadetblue;
     transition: 1s;
     border-radius: 5px;
+}
+.nav_mobile ul{
+    width: 300px;
+    top: 100;
+}
+.nav_mobile input [type="checkbock"]{
+    display: none;
+}
+.menu{
+    width: 100px;
+    height: auto;
+    z-index: 1;
 }
