@@ -1,13 +1,14 @@
+/* Removi todas as margens */
 *{
     margin: 0%;
 }
 /* Adicionei cor ao header */
 header{
-    background-color:rgba(248, 110, 191, 0.61);
+    background-color:rgba(252, 138, 218, 0.61);
 }
 /* Adicionei cor ao main */
 main{
-    background-color:white;
+    background-color:rgba(250, 189, 240, 0.445);
 }
 /* Adicionei cor ao footer */
 footer{
@@ -21,7 +22,7 @@ header{
 main{
     grid-area: principal;
 }
-/* Classifiquei o header para o grid */
+/* Classifiquei o footer para o grid */
 footer{
     grid-area: rodape;
 }
@@ -37,7 +38,7 @@ body{
     grid-template-rows:auto auto auto;
 }
 /* Responsividade */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 400px) {
     body{
         grid-template-areas: 
         "cabeça"
@@ -58,15 +59,6 @@ footer a{
 footer a:hover{
     color:rgb(0, 0, 0);
 }
-/* Deixei o header relativo ao h1 dele */
-header{
-    position: relative;
-}
-/* Deixei o h1 do header absoluto a ele */
-header h1{
-    position: absolute;
-    right: 800px;
-}
 /* Mudei a aparencia do botao */
 button{
     text-decoration: none;
@@ -74,32 +66,22 @@ button{
     background-color: rgba(255, 0, 157, 0.849);
     width: 60px;
     height: 30px;
-    color: rgb(0, 0, 0);
-    margin-top: 6px;
 }
-/* Mudei a aparencia do nav li */
-header nav li{
-    background-color: rgba(86, 15, 145, 0.808);
+/* Mudei a aparencia do nav li no header */
+header nav a{
     width: 45px;
-    border-radius: 5px;
+    text-decoration: none;
+    color: blueviolet;
     transition: 0.5s;
 }
-/* Mudei a aparencia do nav li para quando o mouse passar por cima */
-header nav li:hover{
+/* Mudei a aparencia do nav li no header para quando o mouse passar por cima */
+header nav a:hover{
     background-color: rgba(255, 52, 187, 0.856);
-}
-/* Mudei a aparencia do link no li */
-li a{
-    text-decoration: none;
-    color: wheat;
-    transition: 0.7s;
-}
-/* Mudei a aparencia do link no li para quando o mouse passar por cima */
-li a:hover{
+    color: rgb(0, 0, 0);
     text-decoration: underline;
-    color: black;
+    border-radius: 5px;
 }
-/* Mudei a aparencia do elemento mae */
+/* Mudei a aparencia do elemento mae no main */
 .elementomae{
     display: flex;
     justify-content: space-around;
@@ -107,7 +89,7 @@ li a:hover{
     align-items: center;
     flex-direction: row;
 }
-/* Mudei a aparencia do elemento */
+/* Mudei a aparencia do elemento que é onde a imagem está */
 .elemento{
     width: 400px;
     height: 450px;
@@ -134,13 +116,11 @@ li a:hover{
 /* Mudei a aparencia do texto para quando o mouse passar por cima */
 .texto:hover{
     background-color: rgba(69, 71, 94, 0.158);
-    transition-delay: 5ms;
 }
 /* Mudei a aparencia da imagem no elemento */
 .elemento img{
     width: 400px;
     height: 430px;
-    border-radius: 10px;
 }
 /* Mudei a aparencia do link de texto */
 .texto a{
@@ -154,8 +134,4 @@ li a:hover{
     margin-top: 20px;
     padding: 10px;
     transition: 0.4s;
-}
-/* Mudei a aparencia do link de texto para quando o mouse passar por cima */
-.texto a:hover{
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.685);
 }

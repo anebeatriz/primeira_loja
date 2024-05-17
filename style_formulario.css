@@ -1,17 +1,18 @@
+/* Removi todas as margens */
 *{
     margin: 0%;
 }
 /* Adicionei cor ao header */
 header{
-    background-color: rgba(245, 164, 252, 0.897);
+    background-color: rgba(255, 0, 234, 0.377);
 }
 /* Adicionei cor ao main */
 main{
-    background-color:rgba(255, 0, 191, 0.63);
+    background-color:rgba(245, 174, 227, 0.63);
 }
 /* Adicionei cor ao footer */
 footer{
-    background-color: rgb(182, 97, 175);
+    background-color: rgba(155, 59, 155, 0.685);
 }
 /* Classifiquei o header para o grid */
 header{
@@ -37,7 +38,7 @@ body{
     grid-template-rows:auto auto auto;
 }
 /* Responsividade */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 400px) {
     body{
         grid-template-areas: 
         "cabeça"
@@ -64,7 +65,6 @@ footer a:hover{
 .elemento{
     display:flex;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 /* Organizei o div */
 .caixa{
@@ -72,12 +72,10 @@ footer a:hover{
     height: 450px;
     padding: 20px;
     border-radius: 20px;
-    background-color: rgba(154, 102, 250, 0.466);
-    border: 10px black;
+    background-color: rgba(154, 102, 250, 0.308);
     flex-direction: column;
     margin: 10px;
     display: flex;
-
 }
 /* Mudei a aparencia do link do div */
 div a{

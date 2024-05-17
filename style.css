@@ -1,3 +1,4 @@
+/* Removi todas as margens */
 *{
     margin: 0%;
 }
@@ -48,7 +49,7 @@ body{
     grid-template-rows:auto auto auto;
 }
 /* Responsividade */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 400px) {
     body{
         grid-template-areas: 
         "cabeça"
@@ -87,36 +88,32 @@ body{
 div{
     text-align: center;
 }
-/* Mudei a aparencia do link dentro do ul no header */
-header ul a{
-    text-decoration: none;
-    color: #ffc635;
-    transition: 1s;
+/* Deixei o header mais flexível, ajustei tudo no centro e deixei ele relativo em relaçao ao ul*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
-/* Mudei a aparencia do link dentro do ul no header para quando o mouse passar por cima */
-header ul a:hover{
-    color: rgb(0, 195, 255);
-}
-/* Mudei a margem do aside */
-aside p{
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
+/* Deixei o link dentro do ul absoluto e ajustei para a esquerda */
+header nav {
+    position: absolute;
+    left: 10px;
 }
 /* Mudei a aparencia do link no footer */
 footer a{
     text-decoration: none;
     color: #ffa5ff;
-    transition: 1s;
+    transition: 0.5s;
 }
 /* Mudei a aparencia do link no footer para quando o mouse passar por cima */
 footer a:hover{
-    color: fuchsia;
+    color: rgb(114, 2, 114);
 }
-/* Mudei a aparencia do titulo no aside */
+/* Deixei o titulo no aside mais para a direita */
 aside h1{
     margin-left: 5px;
-}
+} 
 /* Mudei a aparencia do botao */
 button{
     border-radius: 9px;
@@ -130,7 +127,6 @@ button{
 img{
     width: 280px;
     border-radius: 5px;
-    margin-top: 7px;
     margin: 10px;
 }
 /* Mudei a aparencia dos links no div */
@@ -142,15 +138,15 @@ div a{
 div a:hover{
     text-decoration:underline;
 }
-/* Mudei a aparencia dos links no aside */
+/* Mudei a aparencia do link no aside */
 aside a{
     text-decoration: none;
     color: black;
 }
-/* Mudei a aparencia dos links no aside para quando o mouse passar por cima */
+/* Mudei a aparencia do link no aside para quando o mouse passar por cima */
 aside a:hover{
     text-decoration: underline;
-    background-color: cadetblue;
+    background-color: rgb(152, 102, 233);
     transition: 1s;
     border-radius: 5px;
 }
