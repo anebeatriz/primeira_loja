@@ -11,19 +11,26 @@
 <body onload="ola()">
     <!-- Conectei o javascript com o index -->
     <script src="script.js"></script>
-    <div class="nav_mobile">
-        <input type="checkbox" name="Menu" id="Menu">
-        <label for="Menu">
-            <img src="imagens/logo_menu.png" alt="Menu" class="menu">
-        </label>
-        <nav>
-            <p>Sobre</p>
-            <p>Carrinho</p>
-            <p>Contato</p>
-        </nav>
-    </div>
     <!-- Inicio do header -->
     <header>
+        <!-- Início do div -->
+        <div class="nav_mobile">
+            <input type="checkbox" name="Menu" id="Menu">
+            <label for="Menu">
+                <img src="imagens/logo_menu.png" alt="Menu" class="menu">
+            </label>
+            <!-- Início do nav, irá aparecer quando clicar no menu-->
+            <nav>
+                <!-- Início do ul -->
+                <ul>
+                    <li><a href="carrinho.html">Carrinho</a></li>
+                    <li><a href="formulário.html">Cadastro</a></li>
+                </ul>
+                <!-- Fim do ul -->
+            </nav>
+            <!-- Fim do nav -->
+        </div>
+        <!-- Fim do div-->
         <img src="imagens/logo_tipo.png" alt="Logo" class="logo">
         <h1>Nails Express</h1>
         <nav>

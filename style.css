@@ -150,24 +150,39 @@ aside a:hover{
     transition: 1s;
     border-radius: 5px;
 }
+/* Mudei a aparencia do ul e tirei o marcador do li */
 .nav_mobile ul{
-    position: absolute;
-    width: 300px;
-    top: 100;
+    list-style-type: none;
+    position: relative;
+    top: 50px;
+}
+/* Mudei o tamanho da imagem dentro do nav */
+.nav_mobile img{
+    width: 40px;
 }
 .nav_mobile input [type="checkbock"]{
     display: none;
 }
-.menu{
-    width: 40px;
-    height: auto;
+/* Mudei a aparencia do nav e deixei ele absoluto ao ul */
+.nav_mobile nav{
+    background-color: #f9bbe1;
+    border: rgb(166, 100, 237) solid;
+    width: -300px;
+    height: 280px;
     position: absolute;
-    top: 0;
-    z-index: 1;
+    left: 1000px;
+    top: 5px;
+    transition: all 0.3s;
 }
-.a nav{
+/* Mudei a aparencia do link das paginas dentro do nav */
+.nav_mobile a{
+    padding: 10px 20px;
+    border: #ff6fc8 solid;
+    display: block;
     text-decoration: none;
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
+}
+/* Deixei o label, onde tem a imagem, absoluto ao ul do nav */
+.nav_mobile label{
+    position: absolute;
+    z-index: 1;
 }
