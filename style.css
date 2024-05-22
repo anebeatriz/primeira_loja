@@ -88,17 +88,11 @@ body{
 div{
     text-align: center;
 }
-/* Deixei o header mais flexível, ajustei tudo no centro e deixei ele relativo em relaçao ao ul*/
+/* Deixei o header mais flexível, ajustei tudo no centro */
 header{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-}
-/* Deixei o link dentro do ul absoluto e ajustei para a esquerda */
-header nav {
-    position: absolute;
-    left: 10px;
 }
 /* Mudei a aparencia do link no footer */
 footer a{
@@ -150,39 +144,43 @@ aside a:hover{
     transition: 1s;
     border-radius: 5px;
 }
-/* Mudei a aparencia do ul e tirei o marcador do li */
 .nav_mobile ul{
-    list-style-type: none;
-    position: relative;
-    top: 50px;
+    list-style: none;
+    position: absolute;
+    top: 1px;
+    width: 90%;
 }
-/* Mudei o tamanho da imagem dentro do nav */
 .nav_mobile img{
     width: 40px;
+    border: gray solid 2px;
 }
-.nav_mobile input [type="checkbock"]{
-    display: none;
+
+.nav_mobile input[type="checkbox"]{
+     display: none;
 }
-/* Mudei a aparencia do nav e deixei ele absoluto ao ul */
+
 .nav_mobile nav{
-    background-color: #f9bbe1;
-    border: rgb(166, 100, 237) solid;
-    width: -300px;
-    height: 280px;
+    border: rgb(106, 0, 255) solid;
+    background-color: rgb(226, 102, 189);
+    width: 350px;
+    height: 100vh;
+    top: 10px;
     position: absolute;
-    left: 1000px;
-    top: 5px;
+    left: -360px;
     transition: all 0.3s;
 }
-/* Mudei a aparencia do link das paginas dentro do nav */
+
 .nav_mobile a{
-    padding: 10px 20px;
-    border: #ff6fc8 solid;
+    border: rgb(151, 8, 130) solid;
     display: block;
+    padding: 20px 5px;
     text-decoration: none;
 }
-/* Deixei o label, onde tem a imagem, absoluto ao ul do nav */
+
 .nav_mobile label{
     position: absolute;
     z-index: 1;
+}
+.nav_mobile input[type="checkbox"]:checked ~ nav{
+    transform: translateX(350px);
 }
