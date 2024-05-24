@@ -144,15 +144,24 @@ aside a:hover{
     transition: 1s;
     border-radius: 5px;
 }
+/* Mudei a apaencia do ul */
 .nav_mobile ul{
     list-style: none;
     position: absolute;
     top: 1px;
-    width: 90%;
+    width: 88%;
+}
+.nav_mobile li{
+    /* background-color: rgba(226, 102, 189, 0.74); */
+    transition: 0.4s;
+    border-radius: 20px;
+    margin: 10px;
+}
+.nav_mobile li:hover{
+    background-color: rgb(143, 54, 109);
 }
 .nav_mobile img{
     width: 40px;
-    border: gray solid 2px;
 }
 
 .nav_mobile input[type="checkbox"]{
@@ -160,8 +169,7 @@ aside a:hover{
 }
 
 .nav_mobile nav{
-    border: rgb(106, 0, 255) solid;
-    background-color: rgb(226, 102, 189);
+    background-color: rgba(226, 102, 189, 0.74);
     width: 350px;
     height: 100vh;
     top: 10px;
@@ -171,7 +179,6 @@ aside a:hover{
 }
 
 .nav_mobile a{
-    border: rgb(151, 8, 130) solid;
     display: block;
     padding: 20px 5px;
     text-decoration: none;
@@ -180,6 +187,8 @@ aside a:hover{
 .nav_mobile label{
     position: absolute;
     z-index: 1;
+    top: 1px;
+    left: 1px;
 }
 .nav_mobile input[type="checkbox"]:checked ~ nav{
     transform: translateX(350px);
