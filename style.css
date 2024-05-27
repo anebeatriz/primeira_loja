@@ -15,7 +15,7 @@ aside{
 }
 /* Adicionei cor ao main */
 main{
-    background-color:rgba(250, 142, 221, 0.397);
+    background-color:rgba(250, 142, 221, 0.233);
 }
 /* Adicionei cor ao footer */
 footer{
@@ -33,7 +33,7 @@ aside{
 main{
     grid-area: principal;
 }
-/* Classifiquei o footer para o grid */
+/* Classifiquei o footefile:///tmp/guest-gofhwl/%C3%81rea%20de%20Trabalho/primeira_loja/primeira_loja-main/index.htmlr para o grid */
 footer{
     grid-area: rodape;
 }
@@ -151,45 +151,52 @@ aside a:hover{
     top: 1px;
     width: 88%;
 }
+/* Mudei a aparecia do li dentro do nav */
 .nav_mobile li{
-    /* background-color: rgba(226, 102, 189, 0.74); */
     transition: 0.4s;
     border-radius: 20px;
     margin: 10px;
 }
+/* Mudei a aparecia do li dentro do nav para quando o mouse passar por cima */
 .nav_mobile li:hover{
     background-color: rgb(143, 54, 109);
 }
+/* Mudei o tamanho da imagem do menu */
 .nav_mobile img{
-    width: 40px;
+    width: 45px;
 }
-
+/* Deixei a caixinha invisivel */
 .nav_mobile input[type="checkbox"]{
      display: none;
 }
-
+/* Mudei a aparencia do nav, que vai aparecer quando clicar na imagem menu */
 .nav_mobile nav{
     background-color: rgba(226, 102, 189, 0.74);
-    width: 350px;
+    width: 300px;
     height: 100vh;
-    top: 10px;
+    top: 1px;
     position: absolute;
     left: -360px;
     transition: all 0.3s;
 }
-
+/* Mudei a aparencia do texto que esta no nav */
 .nav_mobile a{
     display: block;
     padding: 20px 5px;
     text-decoration: none;
 }
-
+/* Mudei o label, que é a imagem */
 .nav_mobile label{
     position: absolute;
     z-index: 1;
-    top: 1px;
-    left: 1px;
+    top: 10px;
+    left: 20px;
 }
+/* Isso é para quando clicar na imagem, o nav aparecer */
 .nav_mobile input[type="checkbox"]:checked ~ nav{
     transform: translateX(350px);
+}
+/* Mudei o tamanho da imagem do header */
+header img{
+    width: 100px;
 }
