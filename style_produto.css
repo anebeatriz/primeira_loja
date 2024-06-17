@@ -54,10 +54,17 @@ footer a{
     text-decoration: none;
     color: #ffffff;
     transition: 1s;
+    margin: 8px;
 }
 /* Mudei a aparencia do link do footer para quando o mouse passar por cima */
 footer a:hover{
     color:rgb(0, 0, 0);
+}
+footer h2{
+    margin: 8px;
+}
+footer p{
+    margin: 8px;
 }
 /* Mudei a aparencia do botao */
 button{
@@ -112,6 +119,7 @@ header nav a:hover{
     flex-direction: column;
     display: flex;
     transition: 0.7s;
+    padding: 15px;
 }
 /* Mudei a aparencia do texto para quando o mouse passar por cima */
 .texto:hover{

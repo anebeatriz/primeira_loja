@@ -94,15 +94,19 @@ header{
     justify-content: center;
     align-items: center;
 }
+footer h2{
+    margin-left: 6px;
+}
 /* Mudei a aparencia do link no footer */
 footer a{
     text-decoration: none;
-    color: #ffa5ff;
+    color: #4d004d;
     transition: 0.5s;
+    margin-left: 8px;
 }
 /* Mudei a aparencia do link no footer para quando o mouse passar por cima */
 footer a:hover{
-    color: rgb(114, 2, 114);
+    color: rgb(255, 0, 191);
 }
 /* Deixei o titulo no aside mais para a direita */
 aside h1{
@@ -133,23 +137,23 @@ div a:hover{
     text-decoration:underline;
 }
 /* Mudei a aparencia do link no aside */
-aside a{
-    text-decoration: none;
-    color: black;
+aside h2{
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    margin-left: 15px;
+    margin-top: 10px;
 }
-/* Mudei a aparencia do link no aside para quando o mouse passar por cima */
-aside a:hover{
-    text-decoration: underline;
-    background-color: rgb(152, 102, 233);
-    transition: 1s;
-    border-radius: 5px;
+aside p{
+    font-size: larger;
+    margin: 8px;
 }
 /* Mudei a apaencia do ul */
 .nav_mobile ul{
     list-style: none;
     position: absolute;
-    top: 1px;
-    width: 88%;
+    top: 40px;
+    width: 77%;
 }
 /* Mudei a aparecia do li dentro do nav */
 .nav_mobile li{
@@ -159,11 +163,11 @@ aside a:hover{
 }
 /* Mudei a aparecia do li dentro do nav para quando o mouse passar por cima */
 .nav_mobile li:hover{
-    background-color: rgb(143, 54, 109);
+    background-color: rgba(228, 144, 196, 0.507);
 }
 /* Mudei o tamanho da imagem do menu */
 .nav_mobile img{
-    width: 45px;
+    width: 55px;
 }
 /* Deixei a caixinha invisivel */
 .nav_mobile input[type="checkbox"]{
@@ -171,8 +175,8 @@ aside a:hover{
 }
 /* Mudei a aparencia do nav, que vai aparecer quando clicar na imagem menu */
 .nav_mobile nav{
-    background-color: rgba(226, 102, 189, 0.74);
-    width: 300px;
+    background-color: rgb(133, 57, 110);
+    width: 250px;
     height: 100vh;
     top: 1px;
     position: absolute;
@@ -182,7 +186,7 @@ aside a:hover{
 /* Mudei a aparencia do texto que esta no nav */
 .nav_mobile a{
     display: block;
-    padding: 20px 5px;
+    padding: 17px 5px;
     text-decoration: none;
 }
 /* Mudei o label, que é a imagem */
