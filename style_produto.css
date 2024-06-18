@@ -53,18 +53,21 @@ body{
 footer a{
     text-decoration: none;
     color: #ffffff;
-    transition: 1s;
-    margin: 8px;
+    transition: 0.3s;
+    margin-left: 10px;
 }
 /* Mudei a aparencia do link do footer para quando o mouse passar por cima */
 footer a:hover{
     color:rgb(0, 0, 0);
 }
 footer h2{
-    margin: 8px;
+    margin-left: 8px;
 }
 footer p{
-    margin: 8px;
+    margin-left: 9px;
+}
+footer h4{
+    margin: 10px;
 }
 /* Mudei a aparencia do botao */
 button{
@@ -74,19 +77,23 @@ button{
     width: 60px;
     height: 30px;
 }
+header h1{
+    margin-left: 15px;
+}
 /* Mudei a aparencia do nav li no header */
+header nav li{
+    list-style: none;
+}
 header nav a{
-    width: 45px;
+    font-size: large;
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(0, 0, 0);
     transition: 0.5s;
 }
 /* Mudei a aparencia do nav li no header para quando o mouse passar por cima */
 header nav a:hover{
-    background-color: rgba(255, 52, 187, 0.856);
     color: rgb(0, 0, 0);
     text-decoration: underline;
-    border-radius: 5px;
 }
 /* Mudei a aparencia do elemento mae no main */
 .elementomae{

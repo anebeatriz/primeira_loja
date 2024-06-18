@@ -95,18 +95,19 @@ header{
     align-items: center;
 }
 footer h2{
-    margin-left: 6px;
+    margin-left: 8px;
 }
 /* Mudei a aparencia do link no footer */
 footer a{
     text-decoration: none;
-    color: #4d004d;
-    transition: 0.5s;
-    margin-left: 8px;
+    color: #ffffff;
+    transition: 0.3s;
+    margin-left: 1opx;
+    font-size: large;
 }
 /* Mudei a aparencia do link no footer para quando o mouse passar por cima */
 footer a:hover{
-    color: rgb(255, 0, 191);
+    color: rgb(0, 0, 0);
 }
 /* Deixei o titulo no aside mais para a direita */
 aside h1{
@@ -146,7 +147,7 @@ aside h2{
 }
 aside p{
     font-size: larger;
-    margin: 8px;
+    margin: 11px;
 }
 /* Mudei a apaencia do ul */
 .nav_mobile ul{
@@ -164,6 +165,9 @@ aside p{
 /* Mudei a aparecia do li dentro do nav para quando o mouse passar por cima */
 .nav_mobile li:hover{
     background-color: rgba(228, 144, 196, 0.507);
+}
+.nav_mobile a{
+    font-size: large;
 }
 /* Mudei o tamanho da imagem do menu */
 .nav_mobile img{
