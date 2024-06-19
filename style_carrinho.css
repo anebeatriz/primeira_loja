@@ -48,10 +48,16 @@ body{
         grid-template-rows: auto auto auto auto;
     }
 }
+header h1{
+    margin-left: 11px;
+}
+header h3{
+    margin-left: 12px;
+}
 /* Ajustei a imagem */
-.drica{
-    width: 400px;
-    height: 430px;
+img{
+    width: 350px;
+    height: 358px;
 }
 /*  Mudei os links do main */
 main a{
@@ -67,11 +73,17 @@ main a:hover{
 /*  Mudei os links do footer */
 footer a{
     text-decoration: none;
-    color: rgb(139, 3, 78);
+    color: rgb(255, 255, 255);
     transition: 0.3s;
+    margin-left: 10px;
 }
 /*  Mudei os links do footer para quando o mouse passar por cima */
 footer a:hover{
-    text-decoration: underline;
-    color: rgb(34, 72, 143);
+    color: rgb(0, 0, 0);
+}
+footer p{
+    margin-left: 10px;
+}
+main h1{
+    margin: 5px;
 }
