@@ -5,36 +5,116 @@
     <meta charset="UTF-8">
     <title>Carrinho</title>
     <link rel="stylesheet" href="style_carrinho.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <!-- Fim do head -->
 <!-- Início do body -->
 <body>
     <!-- Início do header -->
     <header>
-        <h1>Meu carrinho</h1>
+        <h1>Seu carrinho</h1>
         <h3>Seu produto ficará aqui até que você faça a compra ou retire ele daqui</h3>
     </header>
     <!-- Fim do header -->
     <!-- Início do main -->
     <main>
-        <h1>Produto:</h1>
-        <img src="imagens/risque_rosinha.jpeg" alt="Risqué" class="risque">
-        <h2>Esmalte - Risqué</h2>
-        <h3>R$ 4,20</h3>
-        <p>Subtotal:(sem frete) R$ 4,20</p>
-        <h1>Produto:</h1>
-        <img src="imagens/drica_marrom.jpg" alt="Drica" class="drica">
-        <h2>Esmalte - Drica</h2>
-        <h3>R$ 4,00</h3>
-        <p>Subtotal:(sem frete) R$ 4,00</p>
-        <br>
-        <a href="index.html" target="_blank">Continuar comprando</a>
-        <br>
-        <a href="formulário.html" target="_blank">Finalizar compra</a>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Preço</th>
+                        <th>Quantidade</th>
+                        <th>Total</th>
+                        <th>-</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="produto">
+                                <img src="imagens/risque_rosinha.jpeg" alt="Risqué">
+                                <div class="info">
+                                    <div class="nome">Esmalte Rose Bombom</div>
+                                    <div class="categoria">Risqué - Cremoso</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>R$4, 20</td>
+                        <td>
+                            <div class="qty">
+                                <button><i class="bx bx-minus"></i></button>
+                                <span>2</span>
+                                <button><i class="bx bx-plus"></i></button>
+                            </div>
+                        </td>
+                        <td>R$8, 40</td>
+                        <td>
+                            <button class="delete"><i class="bx bx-x"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="produto">
+                                <img src="imagens/drica_marrom.jpg" alt="Drica">
+                                <div class="info">
+                                    <div class="nome">Esmalte Terra de Marte</div>
+                                    <div class="categoria">Drica - Cremoso</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>R$5, 00</td>
+                        <td>
+                            <div class="qty">
+                                <button><i class="bx bx-minus"></i></button>
+                                <span>1</span>
+                                <button><i class="bx bx-plus"></i></button>
+                            </div>
+                        </td>
+                        <td>R$5, 00</td>
+                        <td>
+                            <button class="delete"><i class="bx bx-x"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="produto">
+                                <img src="imagens/impala_rosabrilho.jpeg" alt="Risqué">
+                                <div class="info">
+                                    <div class="nome">Esmalte Paraíso</div>
+                                    <div class="categoria">Impala - Perolado</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>R$4, 98</td>
+                        <td>
+                            <div class="qty">
+                                <button><i class="bx bx-minus"></i></button>
+                                <span>3</span>
+                                <button><i class="bx bx-plus"></i></button>
+                            </div>
+                        </td>
+                        <td>R$14, 94</td>
+                        <td>
+                            <button class="delete"><i class="bx bx-x"></i></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+            <div class="box">
+                <div class="info">
+                    <div><span1>Sub-total</span1><span2>R$28, 34</span2></div>
+                    <div><span1>Frete</span1><span3>Gratuito</span3></div>
+                </div>
+            </div>
     </main>
     <!-- Fim do main -->
     <!-- Início do footer -->
     <footer>
+        <button>
+            <a href="formulário.html">Finalizar compra</a>
+        </button>
         <p>Saiba mais em:</p>
         <a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a>
         <br>
