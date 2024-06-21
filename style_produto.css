@@ -60,12 +60,15 @@ footer a{
 footer a:hover{
     color:rgb(0, 0, 0);
 }
+/*Deixei o titulo do footer mais para a direita*/
 footer h2{
     margin-left: 8px;
 }
+/*Deixei o paragrafo do footer mais para a direita*/
 footer p{
     margin-left: 9px;
 }
+/*Deixei o subtitulo do footer mais para a direita*/
 footer h4{
     margin: 10px;
 }
@@ -77,6 +80,7 @@ button{
     width: 60px;
     height: 30px;
 }
+/*Deixei o titulo do header mais para a direita*/
 header h1{
     margin-left: 15px;
 }
@@ -84,13 +88,14 @@ header h1{
 header nav li{
     list-style: none;
 }
+/* Mudei a aparencia do link do nav no header */
 header nav a{
     font-size: large;
     text-decoration: none;
     color: rgb(0, 0, 0);
     transition: 0.5s;
 }
-/* Mudei a aparencia do nav li no header para quando o mouse passar por cima */
+/* Mudei a aparencia do link do nav no header para quando o mouse passar por cima */
 header nav a:hover{
     color: rgb(0, 0, 0);
     text-decoration: underline;

@@ -49,6 +49,7 @@ body{
         grid-template-rows: auto auto auto auto;
     }
 }
+/*Deixei o titulo do header mais para a direita*/
 header h2{
     margin-left: 10px;
 }
@@ -63,6 +64,7 @@ footer a{
 footer a:hover{
     color: rgb(0, 0, 0);
 }
+/*Deixei o paragrafo do footer mais para a direita*/
 footer p{
     margin-left: 8px;
 }

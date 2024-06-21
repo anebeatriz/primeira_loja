@@ -33,7 +33,7 @@ aside{
 main{
     grid-area: principal;
 }
-/* Classifiquei o footefile:///tmp/guest-gofhwl/%C3%81rea%20de%20Trabalho/primeira_loja/primeira_loja-main/index.htmlr para o grid */
+/* Classifiquei o footer para o grid */
 footer{
     grid-area: rodape;
 }
@@ -94,6 +94,7 @@ header{
     justify-content: center;
     align-items: center;
 }
+/*Deixei os paragrafos do footer mais para a direita e aumentei a fonte*/
 footer p{
     margin-left: 8px;
     font-size: x-large;
@@ -106,7 +107,7 @@ footer a{
     margin-left: 10px;
     font-size: large;
 }
-/* Mudei a aparencia do link no footer para quando o mouse passar por cima */
+/* Mudei a cor do link no footer para quando o mouse passar por cima */
 footer a:hover{
     color: rgb(0, 0, 0);
 }
@@ -146,6 +147,7 @@ aside h2{
     margin-left: 15px;
     margin-top: 10px;
 }
+/*Mudei o tamanho e adicionei margem no paragrafo do aside*/
 aside p{
     font-size: larger;
     margin: 11px;
@@ -167,6 +169,7 @@ aside p{
 .nav_mobile li:hover{
     background-color: rgba(228, 144, 196, 0.507);
 }
+/*Aumentei a fonte do link do menu*/
 .nav_mobile a{
     font-size: large;
 }

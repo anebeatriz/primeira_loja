@@ -48,9 +48,11 @@ body{
         grid-template-rows: auto auto auto auto;
     }
 }
+/*Deixei o h1 do header mais para a direita*/
 header h1{
     margin-left: 11px;
 }
+/*Deixei o h3 do header mais para a direita*/
 header h3{
     margin-left: 12px;
 }
@@ -59,63 +61,74 @@ img{
     width: 150px;
     height: 158px;
 }
-/*  Mudei os links do main */
+/*  Mudei a aparencia dos links do main */
 main a{
     text-decoration: none;
     color: blueviolet;
     transition: 0.3s;
 }
-/*  Mudei os links do main para quando o mouse passar por cima */
+/*  Mudei a aparencia dos links do main para quando o mouse passar por cima */
 main a:hover{
     text-decoration: underline;
     color: black;
 }
-/*  Mudei os links do footer */
+/*  Mudei a aparencia dos links do footer */
 footer a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     transition: 0.3s;
     margin-left: 10px;
 }
-/*  Mudei os links do footer para quando o mouse passar por cima */
+/*  Mudei a aparencia dos links do footer para quando o mouse passar por cima */
 footer a:hover{
     color: rgb(0, 0, 0);
 }
+/*Deixei o paragrafo do footer mais para a direita*/
 footer p{
     margin-left: 10px;
 }
+/*Deixei o h1 do main mais para a direita*/
 main h1{
     margin: 5px;
 }
+/*Ajustei o tamanho da tabela e coloquei linhas separando os produtos*/
 table{
     width: 60%;
     border-collapse: collapse;
 }
+/* Ajustei as linhas entre os produtos */
 tr{
     border-bottom: 3px rgba(200, 0, 255, 0.389) solid;
 }
+/* Arrumei a aparencia do cabeçalho da tabela*/
 th{
     text-align: left;
     padding-bottom: 7px;
     text-transform: uppercase;
     color: rgb(60, 2, 115);
 }
+/* Ajustei o texto de descrição do produto */
 .produto{
     display: flex;
     align-items: center;
 }
+/* Deixei o texto dentro do div produto mais para a direita */
 .info{
     margin-left: 13px;
 }
+/* Aumentei a fonte do texto dentro do div produto */
 .nome{
     font-size: 20px;
 }
+/* Aumentei a fonte do texto dentro do div produto */
 .categoria{
     font-size: 13px;
 }
+/* Coloquei um padding no td, que é tudo dentro do corpo da tabela, para não ficar nada muito perto */
 td{
     padding: 27x;
 }
+/* Ajustei o botão X */
 .delete{
     background-color: rgba(216, 153, 237, 0.723);
     border: 0;
@@ -127,9 +140,11 @@ td{
     justify-content: center;
     font-size: 20px;
 }
+/* Mudei o cursor para uma mãozinha quando o mouse passa por cima dos botões */
 button{
     cursor: pointer;
 }
+/* Mudei a aparencia do elemento "quantidade" da tabela */
 .qty{
     background: rgba(236, 180, 255, 0.406);
     display: inline-flex;
@@ -138,6 +153,7 @@ button{
     min-width: 60px;
     align-items: center;
 }
+/* Mudei a aparencia dos botões */
 button{
     display: flex;
     align-items: center;
@@ -145,26 +161,33 @@ button{
     border: 0;
     padding: 0 10px;
 }
+/* Mudei a aparencia dos botões para quando eu passar por cima */
 button:hover{
     background-color: rgba(151, 75, 177, 0.632);
     border-radius: 8px;
 }
+/* Adicionei uma margem no número do elemento "quantidade" */
 span{
     margin: 0 10px;
 }
+/* Coloquei uma cor de fundo no box */
 .box{
     background-color: rgba(237, 106, 133, 0.624);
 }
+/* Coloquei o texto mais para a direita e aumentei a fonte */
 span1{
     font-size: larger;
     margin-left: 10px;
 }
+/* Coloquei o texto mais para a direita */
 span2{
     margin-left: 30px;
 }
+/* Coloquei o texto mais para a direita */
 span3{
     margin-left: 60px;
 }
+/* Mudei a aparencia do botão do footer */
 footer button{
     background-color: rgba(172, 2, 164, 0.52);
     color: rgb(0, 0, 0);
@@ -174,9 +197,11 @@ footer button{
     transition: 0.3s;
     margin: 10px;
 }
+/* Mudei a aparencia do botão do footer para quando o mouse passar por cima */
 footer button:hover{
     background-color: blueviolet;
 }
+/* Mudei a aparencia do link dentro do botão do footer */
 button a{
     color: black;
 }
